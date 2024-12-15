@@ -40,9 +40,19 @@ This project provides a pre-trained **DistilBERT** model in the folder `my_disti
 - Go to the **Files** panel on the left-hand side in Google Colab.  
 - **Drag and drop** the entire folder `my_distilbert_model` into the Colab workspace.  
 
-Your folder structure should look like this:
+### **Folder Structure**
 
-/content/my_distilbert_model/ ├── config.json ├── model.safetensors ├── special_tokens_map.json ├── tokenizer_config.json └── vocab.txt
+After uploading the model folder, the structure in Colab should look like this:
+
+```plaintext
+/content/my_distilbert_model/
+│
+├── config.json
+├── model.safetensors
+├── special_tokens_map.json
+├── tokenizer_config.json
+└── vocab.txt
+
 
 
 ---
