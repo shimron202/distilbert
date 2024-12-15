@@ -44,21 +44,15 @@ This project provides a pre-trained **DistilBERT** model in the folder `my_disti
 
 Your uploaded folder structure should look like this:
 
-```plaintext
-/content/my_distilbert_model/
-│
-├── config.json
-├── model.safetensors
-├── special_tokens_map.json
-├── tokenizer_config.json
-└── vocab.txt
+/content/my_distilbert_model/  
+│  
+├── config.json  
+├── model.safetensors  
+├── special_tokens_map.json  
+├── tokenizer_config.json  
+└── vocab.txt  
 
-
-
-
-
-
-
+---
 
 ### **4. Follow the Notebook Instructions**
 
@@ -70,7 +64,7 @@ Your uploaded folder structure should look like this:
 ### **5. Run the Notebook**
 
 - Execute the cells in the notebook **sequentially**.  
-- Monitor the outputs. You will see:
+- Monitor the outputs. You will see:  
   - **Classification report**.  
   - **Model predictions** on the test dataset.
 
@@ -78,8 +72,8 @@ Your uploaded folder structure should look like this:
 
 ### **6. Expected Results**
 
-The notebook will produce:
-- A **classification report** summarizing:
+The notebook will produce:  
+- A **classification report** summarizing:  
   - Precision, Recall, and F1-Score.  
 - Outputs of the model predictions on a test dataset.
 
@@ -94,8 +88,5 @@ The notebook will produce:
 
 ## **Contact**
 
-For any issues or clarifications, please reach out to the project author. 🚀
-
-## **Contact**
 For any issues or clarifications, please reach out to the project author. 🚀
 
