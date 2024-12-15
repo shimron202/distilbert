@@ -41,6 +41,7 @@ This project provides a pre-trained **DistilBERT** model in the folder `my_disti
 - **Drag and drop** the entire folder `my_distilbert_model` into the Colab workspace.  
 
 ### **Folder Structure**
+
 Your uploaded folder structure should look like this:
 
 ```plaintext
@@ -51,6 +52,7 @@ Your uploaded folder structure should look like this:
 ├── special_tokens_map.json
 ├── tokenizer_config.json
 └── vocab.txt
+
 
 
 
