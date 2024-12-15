@@ -41,8 +41,7 @@ This project provides a pre-trained **DistilBERT** model in the folder `my_disti
 - **Drag and drop** the entire folder `my_distilbert_model` into the Colab workspace.  
 
 ### **Folder Structure**
-
-After uploading the model folder, the structure in Colab should look like this:
+Your uploaded folder structure should look like this:
 
 ```plaintext
 /content/my_distilbert_model/
