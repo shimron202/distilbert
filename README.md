@@ -55,6 +55,7 @@ After uploading the model folder, the structure in Colab should look like this:
 
 
 
+
 ---
 
 ### **4. Follow the Notebook Instructions**
