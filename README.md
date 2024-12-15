@@ -57,35 +57,44 @@ Your uploaded folder structure should look like this:
 
 
 
----
+
+
 
 ### **4. Follow the Notebook Instructions**
+
 - Locate the section in the notebook titled **"Test start from here"**.  
 - Follow the instructions to load and test the uploaded `my_distilbert_model` folder.
 
 ---
 
 ### **5. Run the Notebook**
-- Execute the cells in the notebook **sequentially**.
+
+- Execute the cells in the notebook **sequentially**.  
 - Monitor the outputs. You will see:
-  - **Classification report**.
+  - **Classification report**.  
   - **Model predictions** on the test dataset.
 
 ---
 
 ### **6. Expected Results**
+
 The notebook will produce:
 - A **classification report** summarizing:
-   - Precision, Recall, and F1-Score.
+  - Precision, Recall, and F1-Score.  
 - Outputs of the model predictions on a test dataset.
 
 ---
 
 ## **Final Notes**
+
 - Ensure the `my_distilbert_model` folder is uploaded correctly and visible in the **Colab Files panel**.  
 - Run all code cells step-by-step as instructed in the notebook.
 
 ---
+
+## **Contact**
+
+For any issues or clarifications, please reach out to the project author. 🚀
 
 ## **Contact**
 For any issues or clarifications, please reach out to the project author. 🚀
