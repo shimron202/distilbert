@@ -35,6 +35,7 @@ pip install transformers datasets torch scikit-learn
 
 ---
 
+---
 ## **2. Set Up the Files**
 
 Download the two files from this repository:
@@ -50,6 +51,7 @@ project_folder/
 ├── distilbert.py   # Training file
 ├── run.py          # Test file
 
+---
 
 ## **3. Train the Model**
 
