@@ -1,92 +1,89 @@
-# distilbert
-distilbert pre trained model based on imdb review movies 
-
 # **DistilBERT**
 
 **DistilBERT pre-trained model based on IMDb review movies**
 
 ---
 
-## **README: DistilBERT Model Inference**
+## **README: DistilBERT Model Training and Inference**
 
-This project provides a pre-trained **DistilBERT** model in the folder `my_distilbert_model` and a Google Colab notebook `DistilBERT.ipynb` to run inference and evaluation. Follow the steps below to upload the model folder, execute the notebook, and test the model.
+This project provides two Python files:  
+- `distilbert.py`: Used to **train** the DistilBERT model locally.  
+- `run.py`: Used to **test** the trained model for inference and evaluation.
+
+Follow the steps below to set up the environment, install dependencies, train the model, and run the test.
 
 ---
 
 ## **Requirements**
 
-- **Google Colab** account.
-- Folder: `my_distilbert_model` (contains the pre-trained DistilBERT model).
-- Notebook file: `DistilBERT.ipynb`.
+- Python 3.8 or higher  
+- GPU support (optional but recommended for faster training)  
+- Required libraries:  
+   - `transformers`, `datasets`, `torch`, `scikit-learn`  
 
 ---
 
-## **Steps to Run the Project**
+## **1. Install Dependencies**
 
-### **1. Open Google Colab**
-- Go to [Google Colab](https://colab.research.google.com/).
-- Create a new notebook or open an existing one.
+Before running the project, install all required libraries using `pip`.
 
----
+Run the following command in your terminal:
 
-### **2. Upload the Notebook**
-- Click the **folder icon** on the left-hand side in Colab.  
-- Click the **Upload** button and select `DistilBERT.ipynb`.  
-- Open the uploaded notebook.
+```bash
+pip install transformers datasets torch scikit-learn
+
 
 ---
 
-### **3. Upload the Model Folder**
-- Go to the **Files** panel on the left-hand side in Google Colab.  
-- **Drag and drop** the entire folder `my_distilbert_model` into the Colab workspace.  
+## **2. Set Up the Files**
+Download the two files from this repository:
 
-### **Folder Structure**
+distilbert.py (Training File)
+run.py (Test/Inference File)
+Ensure both files are in the same folder on your local machine:
+project_folder/
+│
+├── distilbert.py   # Training file
+├── run.py          # Test file
 
-Your uploaded folder structure should look like this:
 
-/content/my_distilbert_model/  
-│  
-├── config.json  
-├── model.safetensors  
-├── special_tokens_map.json  
-├── tokenizer_config.json  
-└── vocab.txt  
 
 ---
 
-### **4. Follow the Notebook Instructions**
+## **3. Train the Model**
+1.Run the distilbert.py file to train the model
 
-- Locate the section in the notebook titled **"Test start from here"**.  
-- Follow the instructions to load and test the uploaded `my_distilbert_model` folder.
+2.Once training is complete, a new folder named my_distilbert_model will be created in the same directory.
+**Folder Structure After Training:**
+
+project_folder/
+│
+├── distilbert.py
+├── run.py
+├── my_distilbert_model/   # Folder created after training
+│   ├── config.json
+│   ├── model.safetensors
+│   ├── special_tokens_map.json
+│   ├── tokenizer_config.json
+│   └── vocab.txt
+
 
 ---
 
-### **5. Run the Notebook**
+## **4. Test the Model**
+1. Once the training is complete and the my_distilbert_model folder is available:
 
-- Execute the cells in the notebook **sequentially**.  
-- Monitor the outputs. You will see:  
-  - **Classification report**.  
-  - **Model predictions** on the test dataset.
-
----
-
-### **6. Expected Results**
-
-The notebook will produce:  
-- A **classification report** summarizing:  
-  - Precision, Recall, and F1-Score.  
-- Outputs of the model predictions on a test dataset.
+Run the run.py file to test the model
 
 ---
 
 ## **Final Notes**
-
-- Ensure the `my_distilbert_model` folder is uploaded correctly and visible in the **Colab Files panel**.  
-- Run all code cells step-by-step as instructed in the notebook.
+Make sure that the distilbert.py and run.py files are in the same folder.
+Confirm that the my_distilbert_model folder is generated successfully after training.
+Run all steps sequentially to avoid errors.
 
 ---
 
+
 ## **Contact**
-
 For any issues or clarifications, please reach out to the project author. 🚀
-
