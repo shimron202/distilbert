@@ -29,7 +29,7 @@ Before running the project, install all required libraries using `pip`.
 
 Run the following command in your terminal:
 
-```bash
+bash
 pip install transformers datasets torch scikit-learn
 
 
