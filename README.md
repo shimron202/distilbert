@@ -23,6 +23,10 @@ Follow the steps below to set up the environment, install dependencies, train th
 
 ---
 
+## **download the pre trained model**
+if you dont wish to train the model yourself download the pre trained model from this link:https://drive.google.com/drive/folders/19ky95SqTLRNCpr7zmoAXT9locCWGcxwi?usp=sharing
+and skip to phase 4.
+
 ## **1. Install Dependencies**
 
 Before running the project, install all required libraries using `pip`.
