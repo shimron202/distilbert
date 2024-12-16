@@ -29,9 +29,9 @@ Before running the project, install all required libraries using `pip`.
 
 Run the following command in your terminal:
 
-bash
+```bash
 pip install transformers datasets torch scikit-learn
-
+```
 
 ---
 
@@ -50,7 +50,7 @@ project_folder/
 │
 ├── distilbert.py   # Training file
 ├── run.py          # Test file
-
+```
 ---
 
 ## **3. Train the Model**
@@ -72,7 +72,7 @@ project_folder/
 │   ├── special_tokens_map.json
 │   ├── tokenizer_config.json
 │   └── vocab.txt
-
+```
 ## **4. Test the Model**
 
 1. Once the training is complete and the `my_distilbert_model` folder is available:
@@ -81,7 +81,7 @@ project_folder/
 
    ```bash
    python run.py
-
+   ```
 
 ---
 
