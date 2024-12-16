@@ -36,26 +36,30 @@ pip install transformers datasets torch scikit-learn
 ---
 
 ## **2. Set Up the Files**
+
 Download the two files from this repository:
 
-distilbert.py (Training File)
-run.py (Test/Inference File)
+- `distilbert.py` (Training File)  
+- `run.py` (Test/Inference File)  
+
 Ensure both files are in the same folder on your local machine:
+
+```bash
 project_folder/
 │
 ├── distilbert.py   # Training file
 ├── run.py          # Test file
 
 
-
----
-
 ## **3. Train the Model**
-1.Run the distilbert.py file to train the model
 
-2.Once training is complete, a new folder named my_distilbert_model will be created in the same directory.
+1. Run the `distilbert.py` file to train the model.
+
+2. Once training is complete, a new folder named `my_distilbert_model` will be created in the same directory.
+
 **Folder Structure After Training:**
 
+```bash
 project_folder/
 │
 ├── distilbert.py
@@ -67,23 +71,29 @@ project_folder/
 │   ├── tokenizer_config.json
 │   └── vocab.txt
 
-
----
-
 ## **4. Test the Model**
-1. Once the training is complete and the my_distilbert_model folder is available:
 
-Run the run.py file to test the model
+1. Once the training is complete and the `my_distilbert_model` folder is available:
+
+   Run the `run.py` file to test the model:
+
+   ```bash
+   python run.py
+
 
 ---
 
 ## **Final Notes**
-Make sure that the distilbert.py and run.py files are in the same folder.
-Confirm that the my_distilbert_model folder is generated successfully after training.
-Run all steps sequentially to avoid errors.
+
+- Make sure that the `distilbert.py` and `run.py` files are in the same folder.  
+- Confirm that the `my_distilbert_model` folder is generated successfully after training.  
+- Run all steps sequentially to avoid errors.
+
 
 ---
 
 
 ## **Contact**
+
 For any issues or clarifications, please reach out to the project author. 🚀
+
